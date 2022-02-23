@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    {
+      "nombre": "Oscar Gerardo Trejo Rivera",
+      "empresa": "Pruebas",
+      "email": "ogerardtr76@gmail.com",
+      "telefono": "5546219932",
+      "notas": "Prueba 1",
+      "id": 1
+    },
+    {
+      "nombre": "Paulina",
+      "empresa": "Paulina construcciones",
+      "email": "ogerardtr76@gmail.com",
+      "telefono": "45654",
+      "notas": "",
+      "id": 3
+    },
+    {
+      "nombre": "Bernie",
+      "empresa": "Bebes",
+      "email": "ogerardtr_98@hotmail.com",
+      "telefono": "",
+      "notas": "",
+      "id": 4
+    },
+    {
+      "nombre": "Nancy",
+      "empresa": "Rosas Carrasco",
+      "email": "nan@nan.com",
+      "telefono": "54458954",
+      "notas": "byvufvuyhfd",
+      "id": 6
+    }
+  ]
+}
