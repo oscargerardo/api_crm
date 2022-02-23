@@ -30,7 +30,7 @@ const Formulario = ({cliente,cargando}) => {
         try {
             let respuesta;
             if(cliente.id){
-                const url = `http://localhost:4000/clientes/${cliente.id}`;
+                const url = `${import.meta.env.VITE_API_URL}/${cliente.id}`;
                 respuesta = await fetch(url,{
                     method: 'PUT',
                     body: JSON.stringify(valores),
@@ -39,7 +39,7 @@ const Formulario = ({cliente,cargando}) => {
                     }
                 });
             }else{
-                const url = 'http://localhost:4000/clientes';
+                const url = import.meta.env.VITE_API_URL
                 respuesta = await fetch(url,{
                     method: 'POST',
                     body: JSON.stringify(valores),
@@ -48,9 +48,8 @@ const Formulario = ({cliente,cargando}) => {
                     }
                 });
                 // console.log(respuesta);
-                const resultado = await respuesta.json()
             }
-            const resultado = await respuesta.json()
+            await respuesta.json()
             // console.log(resultado);
             navigate('/clientes')
         } catch (error) {

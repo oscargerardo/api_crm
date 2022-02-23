@@ -9,14 +9,6 @@
       "id": 1
     },
     {
-      "nombre": "Paulina",
-      "empresa": "Paulina construcciones",
-      "email": "ogerardtr76@gmail.com",
-      "telefono": "45654",
-      "notas": "",
-      "id": 3
-    },
-    {
       "nombre": "Bernie",
       "empresa": "Bebes",
       "email": "ogerardtr_98@hotmail.com",
@@ -31,6 +23,30 @@
       "telefono": "54458954",
       "notas": "byvufvuyhfd",
       "id": 6
+    },
+    {
+      "nombre": "Denisse",
+      "empresa": "den ",
+      "email": "den@den.com",
+      "telefono": "5849498",
+      "notas": "jccuid",
+      "id": 7
+    },
+    {
+      "nombre": "Bonnie",
+      "empresa": "bonys shops",
+      "email": "bon@bon.com",
+      "telefono": "65464646",
+      "notas": "",
+      "id": 8
+    },
+    {
+      "nombre": "Bebe",
+      "empresa": "bebe",
+      "email": "be@be.com",
+      "telefono": "54654",
+      "notas": "68456654",
+      "id": 9
     }
   ]
 }
